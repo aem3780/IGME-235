@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Friend Finder</title>
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel="Gorditas-Regular" href="fonts/Gorditas-Regular.woff">
+    <link rel="RobotoCondensed-Regular" href="fonts/RobotoCondensed-Regular.woff">
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Furry Friend Finder</h1>
+    </header>
+
+    <main>
+        <div class="searchTools">
+            <div class="searchoptions" id="breeds">
+                <p>Select Dog Breed:</p>
+                <select id="breed">
+                    <option value="affenpinscher">Affenpinscher</option>
+                    <option value="african">African</option>
+                    <option value="airedale">Airedale</option>
+                    <option value="akita">Akita</option>
+                    <option value="terrier/american">American Terrier</option>
+                    <option value="appenzeller">Appenzeller</option>
+                    <option value="australian/shepherd">Australian Shepherd</option>
+                    <option value="terrier/australian">Australian Terrier</option>
+                    <option value="beagle">Beagle</option>
+                    <option value="terrier/bedlington">Bedlington Terrier</option>
+                    <option value="mountain/bernese">Bernese Mountain</option>
+                    <option value="bluetick">Bluetick</option>
+                    <option value="terrier/border">Border Terrier</option>
+                    <option value="borzoi">Borzoi</option>
+                    <option value="bulldog/boston">Boston Bulldog</option>
+                    <option value="boxer">Boxer</option>
+                    <option value="mastiff/bull">Bull Mastiff</option>
+                    <option value="cairn">Cairn</option>
+                    <option value="cattledog">Cattledog</option>
+                    <option value="retriever/chesapeake">Chesapeake Retriever</option>
+                    <option value="chihuahua">Chihuahua</option>
+                    <option value="chow">Chow</option>
+                    <option value="clumber">Clumber</option>
+                    <option value="cockapoo">Cockapoo</option>
+                    <option value="collie">Collie</option>
+                    <option value="coonhound">Coonhound</option>
+                    <option value="corgi">Corgi</option>
+                    <option value="retriever/curly">Curly Retriever</option>
+                    <option value="dachshund">Dachshund</option>
+                    <option value="dalmatian">Dalmatian</option>
+                    <option value="deerhound">Deerhound</option>
+                    <option value="dhole">Dhole</option>
+                    <option value="doberman">Doberman</option>
+                    <option value="elkhound">Elkhound</option>
+                    <option value="bulldog/english">English Bulldog</option>
+                    <option value="mastiff/english">English Mastiff</option>
+                    <option value="setter/english">English Setter</option>
+                    <option value="sheepdog/english">English Sheepdog</option>
+                    <option value="springer/english">English Springer</option>
+                    <option value="retriever/flatcoated">Flatcoated Retriever</option>
+                    <option value="terrier/fox">Fox Terrier</option>
+                    <option value="bulldog/french">French Bulldog</option>
+                    <option value="frise">Frise</option>
+                    <option value="pointer/german">German Pointer</option>
+                    <option value="pointer/germanlonghair">Germanlonghair Pointer</option>
+                    <option value="schnauzer/giant">Giant Schnauzer</option>
+                    <option value="germanshepard">German Shepard</option>
+                    <option value="retriever/golden">Golden Retriever</option>
+                    <option value="setter/gordon">Gordon Setter</option>
+                    <option value="dane/great">Great Dane</option>
+                    <option value="husky">Husky</option>
+                    <option value="setter/irish">Irish Setter</option>
+                    <option value="terrier/irish">Irish Terrier</option>
+                    <option value="wolfhound/irish">Irish Wolfhound</option>
+                    <option value="labrador">Labrador</option>
+                    <option value="terrier/lakeland">Lakeland Terrier</option>
+                    <option value="malamute">Malamute</option>
+                    <option value="maltese">Maltese</option>
+                    <option value="mexicanhairless">Mexicanhairless</option>
+                    <option value="pinscher/miniature">Miniature Pinscher</option>
+                    <option value="poodle/miniature">Miniature Poodle</option>
+                    <option value="schnauzer/miniature">Miniature Schnauzer</option>
+                    <option value="newfoundland">Newfoundland</option>
+                    <option value="terrier/norfolk">Norfolk Terrier</option>
+                    <option value="terrier/norwich">Norwich Terrier</option>
+                    <option value="otterhound">Otterhound</option>
+                    <option value="papillon">Papillon</option>
+                    <option value="pekinese">Pekinese</option>
+                    <option value="pembroke">Pembroke</option>
+                    <option value="pitbull">Pitbull</option>
+                    <option value="pomeranian">Pomeranian</option>
+                    <option value="pug">Pug</option>
+                    <option value="puggle">Puggle</option>
+                    <option value="pyrenees">Pyrenees</option>
+                    <option value="redbone">Redbone</option>
+                    <option value="ridgeback/rhodesian">Rhodesian Ridgeback</option>
+                    <option value="rottweiler">Rottweiler</option>
+                    <option value="terrier/russell">Russell Terrier</option>
+                    <option value="saluki">Saluki</option>
+                    <option value="samoyed">Samoyed</option>
+                    <option value="schipperke">Schipperke</option>
+                    <option value="terrier/scottish">Scottish Terrier</option>
+                    <option value="sheepdog/shetland">Shetland Sheepdog</option>
+                    <option value="shiba">Shiba</option>
+                    <option value="shihtzu">Shihtzu</option>
+                    <option value="terrier/silky">Silky Terrier</option>
+                    <option value="waterdog/spanish">Spanish Waterdog</option>
+                    <option value="poodle/standard">Standard Poodle</option>
+                    <option value="stbernard">Stbernard</option>
+                    <option value="mountain/swiss">Swiss Mountain</option>
+                    <option value="mastiff/tibetan">Tibetan Mastiff</option>
+                    <option value="terrier/tibetan">Tibetan Terrier</option>
+                    <option value="poodle/toy">Toy Poodle</option>
+                    <option value="terrier/toy">Toy Terrier</option>
+                    <option value="vizsla">Vizsla</option>
+                    <option value="weimaraner">Weimaraner</option>
+                    <option value="terrier/westhighland">Westhighland Terrier</option>
+                    <option value="terrier/wheaten">Wheaten Terrier</option>
+                    <option value="terrier/yorkshire">Yorkshire Terrier</option>
+                </select>
+
+            </div>
+            <div class="searchoptions" id="limit">
+                <p>Image Limit:</p>
+                <select id="limitNum">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+            <div class="searchoptions" id="searchButton">
+                <button type="button" id="search">Find Friend!</button>
+            </div>
+            <div class="searchoptions" id="favoriteButton">
+                <button type="button" id="favorites">Favorites</button>
+            </div>
+            <div class="searchoptions" id="clearButton">
+                <button type="button" id="clear">Clear Favorites</button>
+            </div>
+            <div class="searchoptions" id="randomButton">
+                <button type="button" id="random">Random Friend!</button>
+            </div>
+          
+        </div>
+            <div id="status">
+                <p>Search for some furry friends!</p>
+            </div>
+    
+        <div id="content">
+                
+        </div>
+    </main>
+    <footer>
+        <p>Author: Allison Maus</p>
+        <p><a href="documentation.html" target="_blank">Documentation</a></p>
+    </footer>
+    
+</body>
+</html>
