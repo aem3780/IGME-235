@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src: url("Poppins-SemiBold.woff") format('woff');
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+
+}
+h1{
+    color: #ff00ff;
+    font-family: "Poppins-SemiBold";
+}
+h2{
+    color: #6136cf;
+    font-family: "Poppins-SemiBold";
+}
+p,li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 15px;
+}
+img{
+    padding: 20px;
+    
+}
